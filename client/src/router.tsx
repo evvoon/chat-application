@@ -6,6 +6,7 @@ import { Login } from "./pages/Login";
 import { AuthProvider } from "./context/AuthContext";
 import { RootLayout } from "./pages/layouts/RootLayout";
 import { Home } from "./pages/Home";
+import { NewChannel } from "./pages/channel/new";
 
 export const router = createBrowserRouter(
   // takes in array of all the routes
@@ -21,7 +22,7 @@ export const router = createBrowserRouter(
             { index: true, element: <Home /> },
             {
               path: "/channel",
-              children: [{ path: "new", element: <h1>New Channel</h1> }],
+              children: [{ path: "new", element: <NewChannel /> }],
             },
           ],
         },

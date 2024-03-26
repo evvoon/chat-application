@@ -7,8 +7,8 @@ import { Navigate } from "react-router-dom";
 export function Login() {
   const { login, user } = useAuth();
   const usernameRef = useRef<HTMLInputElement>(null);
-
-  if (user !== null) return <Navigate to="/" />;
+  console.log(user);
+  if (user != null) return <Navigate to="/" />;
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
