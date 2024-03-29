@@ -1,4 +1,4 @@
-# React + Stream Chat Application
+# Chat Application w/ Stream
 
 This project is a chat application built with React on the frontend and uses StreamChat for real-time messaging functionality. It allows users to easily communicate through direct messages or in group chats, providing a seamless and engaging user experience.
 
@@ -16,3 +16,8 @@ This project is a chat application built with React on the frontend and uses Str
 - **React Router**: For managing navigation within the application.
 - **Axios**: For making API requests.
 - **TailwindCSS**: For styling the components.
+
+
+https://github.com/evvoon/chat-application/assets/91427388/fb46d091-f7e7-40c9-841f-5baaafc7e6c2
+
+
